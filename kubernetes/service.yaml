@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: support-toolkit-backend
+  namespace: support-toolkit
+spec:
+  type: ClusterIP
+  selector:
+    app: support-toolkit-backend
+  ports:
+    - name: http
+      port: 80
+      targetPort: 8000
+      protocol: TCP

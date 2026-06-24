@@ -1,0 +1,1074 @@
+{
+  "data": {
+    "companyUsersConnection": {
+      "_id": "68c3dfa66ca4802bb3b1dc9f",
+      "totalCount": 23,
+      "edges": [
+        {
+          "node": {
+            "activeWorkspaceId": null,
+            "lastActiveDate": "2026-06-10T15:41:24.668Z",
+            "isOnAdminWorkspace": null,
+            "addedByHaakon": true,
+            "platforms": [
+              "mi"
+            ],
+            "userSeatId": null,
+            "user": {
+              "_id": "638e523180623d00085e3a7d",
+              "firstName": "Amelie",
+              "lastName": "Fillon",
+              "email": "amelie.fillon@meltwater.com",
+              "pending": false,
+              "timezone": "Europe/Paris",
+              "language": "en",
+              "created": "2022-12-05T20:18:57.423Z",
+              "modified": "2026-06-10T15:41:24.667Z",
+              "isExternalIdpUser": true,
+              "isInternal": true,
+              "userGroups": [],
+              "appPermissions": {
+                "roleId": null,
+                "account": "ADMINISTRATOR",
+                "analyze": "ADMINISTRATOR",
+                "dashboards": "ADMINISTRATOR",
+                "downloads": "ADMINISTRATOR",
+                "engage": "RESTRICTED",
+                "explore": "ADMINISTRATOR",
+                "explorePlus": "ADMINISTRATOR",
+                "genAiLens": "RESTRICTED",
+                "manageUsers": "ADMINISTRATOR",
+                "mediaRelations": "ADMINISTRATOR",
+                "meltwaterApi": "ADMINISTRATOR",
+                "miraStudio": "ADMINISTRATOR",
+                "report": "ADMINISTRATOR",
+                "share": "ADMINISTRATOR",
+                "workspaces": [],
+                "__typename": "AppPermissions"
+              },
+              "workspaces": [
+                {
+                  "_id": "68c807a4ba6dd97572a48408",
+                  "name": "F&B",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "68c807feb5208aeedbf8653d",
+                  "name": "Trial (shared)",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "68dc05ab918bc1936fdf4ae5",
+                  "name": "Sensitive Communication",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "69242e296ff8f075096c7cfb",
+                  "name": "Corporate Communications",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "695f70e8f8b511b8f4806e6c",
+                  "name": "Europe",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "6968d0dfd095e3fa9c9311b7",
+                  "name": " Presse Export Europe ",
+                  "__typename": "Workspace"
+                }
+              ],
+              "__typename": "User"
+            },
+            "__typename": "CompanyMembership"
+          },
+          "__typename": "CompanyUsersEdge"
+        },
+        {
+          "node": {
+            "activeWorkspaceId": null,
+            "lastActiveDate": "2026-06-12T16:03:54.743Z",
+            "isOnAdminWorkspace": null,
+            "addedByHaakon": false,
+            "platforms": [
+              "mi"
+            ],
+            "userSeatId": null,
+            "user": {
+              "_id": "689b20f682c72fb805e58142",
+              "firstName": "Amina",
+              "lastName": "Kurmanaly",
+              "email": "amina.kurmanaly@meltwater.com",
+              "pending": false,
+              "timezone": "Europe/Paris",
+              "language": "en",
+              "created": "2025-08-12T11:09:42.073Z",
+              "modified": "2026-06-15T11:44:44.832Z",
+              "isExternalIdpUser": null,
+              "isInternal": true,
+              "userGroups": [],
+              "appPermissions": {
+                "roleId": null,
+                "account": "ADMINISTRATOR",
+                "analyze": "ADMINISTRATOR",
+                "dashboards": "ADMINISTRATOR",
+                "downloads": "ADMINISTRATOR",
+                "engage": "RESTRICTED",
+                "explore": "ADMINISTRATOR",
+                "explorePlus": "ADMINISTRATOR",
+                "genAiLens": "RESTRICTED",
+                "manageUsers": "ADMINISTRATOR",
+                "mediaRelations": "ADMINISTRATOR",
+                "meltwaterApi": "ADMINISTRATOR",
+                "miraStudio": "ADMINISTRATOR",
+                "report": "ADMINISTRATOR",
+                "share": "ADMINISTRATOR",
+                "workspaces": [],
+                "__typename": "AppPermissions"
+              },
+              "workspaces": [],
+              "__typename": "User"
+            },
+            "__typename": "CompanyMembership"
+          },
+          "__typename": "CompanyUsersEdge"
+        },
+        {
+          "node": {
+            "activeWorkspaceId": null,
+            "lastActiveDate": "2026-06-08T13:05:03.157Z",
+            "isOnAdminWorkspace": null,
+            "addedByHaakon": false,
+            "platforms": [
+              "mi"
+            ],
+            "userSeatId": null,
+            "user": {
+              "_id": "62167574f31904000923abe3",
+              "firstName": "Anne Laure",
+              "lastName": "Fulidis",
+              "email": "annelaure.fulidis@meltwater.com",
+              "pending": false,
+              "timezone": "Europe/Paris",
+              "language": "en",
+              "created": "2022-02-23T17:57:08.092Z",
+              "modified": "2026-06-16T02:08:35.161Z",
+              "isExternalIdpUser": false,
+              "isInternal": true,
+              "userGroups": [],
+              "appPermissions": {
+                "roleId": null,
+                "account": "ADMINISTRATOR",
+                "analyze": "ADMINISTRATOR",
+                "dashboards": "ADMINISTRATOR",
+                "downloads": "ADMINISTRATOR",
+                "engage": "RESTRICTED",
+                "explore": "ADMINISTRATOR",
+                "explorePlus": "ADMINISTRATOR",
+                "genAiLens": "RESTRICTED",
+                "manageUsers": "ADMINISTRATOR",
+                "mediaRelations": "ADMINISTRATOR",
+                "meltwaterApi": "ADMINISTRATOR",
+                "miraStudio": "ADMINISTRATOR",
+                "report": "ADMINISTRATOR",
+                "share": "ADMINISTRATOR",
+                "workspaces": [
+                  {
+                    "workspaceId": "68c807feb5208aeedbf8653d",
+                    "roleId": null,
+                    "overrides": {
+                      "account": "ADMINISTRATOR",
+                      "analyze": "ADMINISTRATOR",
+                      "dashboards": "ADMINISTRATOR",
+                      "downloads": null,
+                      "engage": null,
+                      "explore": "ADMINISTRATOR",
+                      "explorePlus": "ADMINISTRATOR",
+                      "genAiLens": null,
+                      "manageUsers": "ADMINISTRATOR",
+                      "mediaRelations": "ADMINISTRATOR",
+                      "meltwaterApi": "ADMINISTRATOR",
+                      "miraStudio": "ADMINISTRATOR",
+                      "report": "ADMINISTRATOR",
+                      "share": "ADMINISTRATOR",
+                      "__typename": "WorkspaceOverride"
+                    },
+                    "__typename": "WorkspaceOverrides"
+                  },
+                  {
+                    "workspaceId": "6968d0dfd095e3fa9c9311b7",
+                    "roleId": null,
+                    "overrides": {
+                      "account": "ADMINISTRATOR",
+                      "analyze": "ADMINISTRATOR",
+                      "dashboards": "ADMINISTRATOR",
+                      "downloads": null,
+                      "engage": null,
+                      "explore": "ADMINISTRATOR",
+                      "explorePlus": "ADMINISTRATOR",
+                      "genAiLens": null,
+                      "manageUsers": null,
+                      "mediaRelations": "ADMINISTRATOR",
+                      "meltwaterApi": "ADMINISTRATOR",
+                      "miraStudio": "ADMINISTRATOR",
+                      "report": "ADMINISTRATOR",
+                      "share": "ADMINISTRATOR",
+                      "__typename": "WorkspaceOverride"
+                    },
+                    "__typename": "WorkspaceOverrides"
+                  },
+                  {
+                    "workspaceId": "68dc05ab918bc1936fdf4ae5",
+                    "roleId": null,
+                    "overrides": {
+                      "account": "ADMINISTRATOR",
+                      "analyze": "ADMINISTRATOR",
+                      "dashboards": "ADMINISTRATOR",
+                      "downloads": null,
+                      "engage": null,
+                      "explore": "ADMINISTRATOR",
+                      "explorePlus": "ADMINISTRATOR",
+                      "genAiLens": null,
+                      "manageUsers": null,
+                      "mediaRelations": "ADMINISTRATOR",
+                      "meltwaterApi": "ADMINISTRATOR",
+                      "miraStudio": "ADMINISTRATOR",
+                      "report": "ADMINISTRATOR",
+                      "share": "ADMINISTRATOR",
+                      "__typename": "WorkspaceOverride"
+                    },
+                    "__typename": "WorkspaceOverrides"
+                  },
+                  {
+                    "workspaceId": "69242e296ff8f075096c7cfb",
+                    "roleId": null,
+                    "overrides": {
+                      "account": "ADMINISTRATOR",
+                      "analyze": "ADMINISTRATOR",
+                      "dashboards": "ADMINISTRATOR",
+                      "downloads": null,
+                      "engage": null,
+                      "explore": "ADMINISTRATOR",
+                      "explorePlus": "ADMINISTRATOR",
+                      "genAiLens": null,
+                      "manageUsers": null,
+                      "mediaRelations": "ADMINISTRATOR",
+                      "meltwaterApi": "ADMINISTRATOR",
+                      "miraStudio": "ADMINISTRATOR",
+                      "report": "ADMINISTRATOR",
+                      "share": "ADMINISTRATOR",
+                      "__typename": "WorkspaceOverride"
+                    },
+                    "__typename": "WorkspaceOverrides"
+                  },
+                  {
+                    "workspaceId": "695f70e8f8b511b8f4806e6c",
+                    "roleId": null,
+                    "overrides": {
+                      "account": "ADMINISTRATOR",
+                      "analyze": "ADMINISTRATOR",
+                      "dashboards": "ADMINISTRATOR",
+                      "downloads": null,
+                      "engage": null,
+                      "explore": "ADMINISTRATOR",
+                      "explorePlus": "ADMINISTRATOR",
+                      "genAiLens": null,
+                      "manageUsers": null,
+                      "mediaRelations": "ADMINISTRATOR",
+                      "meltwaterApi": "ADMINISTRATOR",
+                      "miraStudio": "ADMINISTRATOR",
+                      "report": "ADMINISTRATOR",
+                      "share": "ADMINISTRATOR",
+                      "__typename": "WorkspaceOverride"
+                    },
+                    "__typename": "WorkspaceOverrides"
+                  },
+                  {
+                    "workspaceId": "68c807a4ba6dd97572a48408",
+                    "roleId": null,
+                    "overrides": {
+                      "account": "ADMINISTRATOR",
+                      "analyze": "ADMINISTRATOR",
+                      "dashboards": "ADMINISTRATOR",
+                      "downloads": null,
+                      "engage": null,
+                      "explore": "ADMINISTRATOR",
+                      "explorePlus": "ADMINISTRATOR",
+                      "genAiLens": null,
+                      "manageUsers": null,
+                      "mediaRelations": "ADMINISTRATOR",
+                      "meltwaterApi": "ADMINISTRATOR",
+                      "miraStudio": "ADMINISTRATOR",
+                      "report": "ADMINISTRATOR",
+                      "share": "ADMINISTRATOR",
+                      "__typename": "WorkspaceOverride"
+                    },
+                    "__typename": "WorkspaceOverrides"
+                  },
+                  {
+                    "workspaceId": "696c8bcb734a60c3bbf79564",
+                    "roleId": null,
+                    "overrides": {
+                      "account": "ADMINISTRATOR",
+                      "analyze": "ADMINISTRATOR",
+                      "dashboards": "ADMINISTRATOR",
+                      "downloads": null,
+                      "engage": null,
+                      "explore": "ADMINISTRATOR",
+                      "explorePlus": "ADMINISTRATOR",
+                      "genAiLens": null,
+                      "manageUsers": null,
+                      "mediaRelations": "ADMINISTRATOR",
+                      "meltwaterApi": "ADMINISTRATOR",
+                      "miraStudio": "ADMINISTRATOR",
+                      "report": "ADMINISTRATOR",
+                      "share": "ADMINISTRATOR",
+                      "__typename": "WorkspaceOverride"
+                    },
+                    "__typename": "WorkspaceOverrides"
+                  },
+                  {
+                    "workspaceId": "696b9bb7734a60c3bbf77ee6",
+                    "roleId": null,
+                    "overrides": {
+                      "account": "ADMINISTRATOR",
+                      "analyze": "ADMINISTRATOR",
+                      "dashboards": "ADMINISTRATOR",
+                      "downloads": null,
+                      "engage": null,
+                      "explore": "ADMINISTRATOR",
+                      "explorePlus": "ADMINISTRATOR",
+                      "genAiLens": null,
+                      "manageUsers": null,
+                      "mediaRelations": "ADMINISTRATOR",
+                      "meltwaterApi": "ADMINISTRATOR",
+                      "miraStudio": "ADMINISTRATOR",
+                      "report": "ADMINISTRATOR",
+                      "share": "ADMINISTRATOR",
+                      "__typename": "WorkspaceOverride"
+                    },
+                    "__typename": "WorkspaceOverrides"
+                  }
+                ],
+                "__typename": "AppPermissions"
+              },
+              "workspaces": [
+                {
+                  "_id": "68c807a4ba6dd97572a48408",
+                  "name": "F&B",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "68c807feb5208aeedbf8653d",
+                  "name": "Trial (shared)",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "68dc05ab918bc1936fdf4ae5",
+                  "name": "Sensitive Communication",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "69242e296ff8f075096c7cfb",
+                  "name": "Corporate Communications",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "695f70e8f8b511b8f4806e6c",
+                  "name": "Europe",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "6968d0dfd095e3fa9c9311b7",
+                  "name": " Presse Export Europe ",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "696b9bb7734a60c3bbf77ee6",
+                  "name": "FSH",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "696c8bcb734a60c3bbf79564",
+                  "name": "F&B leaks",
+                  "__typename": "Workspace"
+                }
+              ],
+              "__typename": "User"
+            },
+            "__typename": "CompanyMembership"
+          },
+          "__typename": "CompanyUsersEdge"
+        },
+        {
+          "node": {
+            "activeWorkspaceId": null,
+            "lastActiveDate": "2026-04-27T16:49:47.596Z",
+            "isOnAdminWorkspace": null,
+            "addedByHaakon": true,
+            "platforms": [
+              "mi"
+            ],
+            "userSeatId": null,
+            "user": {
+              "_id": "63bd2f7577ba9f0008156292",
+              "firstName": "Antoine",
+              "lastName": "Voyer",
+              "email": "antoine.voyer@meltwater.com",
+              "pending": false,
+              "timezone": "America/Los_Angeles",
+              "language": "en",
+              "created": "2023-01-10T09:27:17.631Z",
+              "modified": "2026-06-15T21:26:49.813Z",
+              "isExternalIdpUser": false,
+              "isInternal": true,
+              "userGroups": [],
+              "appPermissions": {
+                "roleId": null,
+                "account": "ADMINISTRATOR",
+                "analyze": "ADMINISTRATOR",
+                "dashboards": "ADMINISTRATOR",
+                "downloads": "ADMINISTRATOR",
+                "engage": "RESTRICTED",
+                "explore": "ADMINISTRATOR",
+                "explorePlus": "ADMINISTRATOR",
+                "genAiLens": "RESTRICTED",
+                "manageUsers": "ADMINISTRATOR",
+                "mediaRelations": "ADMINISTRATOR",
+                "meltwaterApi": "ADMINISTRATOR",
+                "miraStudio": "ADMINISTRATOR",
+                "report": "ADMINISTRATOR",
+                "share": "ADMINISTRATOR",
+                "workspaces": [],
+                "__typename": "AppPermissions"
+              },
+              "workspaces": [],
+              "__typename": "User"
+            },
+            "__typename": "CompanyMembership"
+          },
+          "__typename": "CompanyUsersEdge"
+        },
+        {
+          "node": {
+            "activeWorkspaceId": null,
+            "lastActiveDate": "2026-06-12T13:10:41.699Z",
+            "isOnAdminWorkspace": true,
+            "addedByHaakon": false,
+            "platforms": [
+              "mi"
+            ],
+            "userSeatId": null,
+            "user": {
+              "_id": "6242e7945dedba000987bb89",
+              "firstName": "Brittni",
+              "lastName": "Schwartz",
+              "email": "brittni.schwartz@meltwater.com",
+              "pending": false,
+              "timezone": "Africa/Johannesburg",
+              "language": "en",
+              "created": "2022-03-29T11:03:48.545Z",
+              "modified": "2026-06-15T23:21:44.450Z",
+              "isExternalIdpUser": false,
+              "isInternal": true,
+              "userGroups": [],
+              "appPermissions": {
+                "roleId": null,
+                "account": "ADMINISTRATOR",
+                "analyze": "ADMINISTRATOR",
+                "dashboards": "ADMINISTRATOR",
+                "downloads": "ADMINISTRATOR",
+                "engage": "RESTRICTED",
+                "explore": "ADMINISTRATOR",
+                "explorePlus": "ADMINISTRATOR",
+                "genAiLens": "RESTRICTED",
+                "manageUsers": "ADMINISTRATOR",
+                "mediaRelations": "ADMINISTRATOR",
+                "meltwaterApi": "ADMINISTRATOR",
+                "miraStudio": "ADMINISTRATOR",
+                "report": "ADMINISTRATOR",
+                "share": "ADMINISTRATOR",
+                "workspaces": [
+                  {
+                    "workspaceId": "68c807a4ba6dd97572a48408",
+                    "roleId": null,
+                    "overrides": {
+                      "account": "ADMINISTRATOR",
+                      "analyze": "ADMINISTRATOR",
+                      "dashboards": "ADMINISTRATOR",
+                      "downloads": "ADMINISTRATOR",
+                      "engage": null,
+                      "explore": "ADMINISTRATOR",
+                      "explorePlus": "ADMINISTRATOR",
+                      "genAiLens": null,
+                      "manageUsers": null,
+                      "mediaRelations": "ADMINISTRATOR",
+                      "meltwaterApi": "ADMINISTRATOR",
+                      "miraStudio": "ADMINISTRATOR",
+                      "report": "ADMINISTRATOR",
+                      "share": "ADMINISTRATOR",
+                      "__typename": "WorkspaceOverride"
+                    },
+                    "__typename": "WorkspaceOverrides"
+                  },
+                  {
+                    "workspaceId": "68c807feb5208aeedbf8653d",
+                    "roleId": null,
+                    "overrides": {
+                      "account": "ADMINISTRATOR",
+                      "analyze": "ADMINISTRATOR",
+                      "dashboards": "ADMINISTRATOR",
+                      "downloads": "ADMINISTRATOR",
+                      "engage": null,
+                      "explore": "ADMINISTRATOR",
+                      "explorePlus": "ADMINISTRATOR",
+                      "genAiLens": null,
+                      "manageUsers": null,
+                      "mediaRelations": "ADMINISTRATOR",
+                      "meltwaterApi": "ADMINISTRATOR",
+                      "miraStudio": "ADMINISTRATOR",
+                      "report": "ADMINISTRATOR",
+                      "share": "ADMINISTRATOR",
+                      "__typename": "WorkspaceOverride"
+                    },
+                    "__typename": "WorkspaceOverrides"
+                  },
+                  {
+                    "workspaceId": "699d9f8bc8674880969cdae0",
+                    "roleId": null,
+                    "overrides": {
+                      "account": "ADMINISTRATOR",
+                      "analyze": "ADMINISTRATOR",
+                      "dashboards": "ADMINISTRATOR",
+                      "downloads": "ADMINISTRATOR",
+                      "engage": null,
+                      "explore": "ADMINISTRATOR",
+                      "explorePlus": "ADMINISTRATOR",
+                      "genAiLens": null,
+                      "manageUsers": null,
+                      "mediaRelations": "ADMINISTRATOR",
+                      "meltwaterApi": "ADMINISTRATOR",
+                      "miraStudio": "ADMINISTRATOR",
+                      "report": "ADMINISTRATOR",
+                      "share": "ADMINISTRATOR",
+                      "__typename": "WorkspaceOverride"
+                    },
+                    "__typename": "WorkspaceOverrides"
+                  },
+                  {
+                    "workspaceId": "69a83ab1efe21ff1f9900e4d",
+                    "roleId": null,
+                    "overrides": {
+                      "account": "ADMINISTRATOR",
+                      "analyze": "ADMINISTRATOR",
+                      "dashboards": "ADMINISTRATOR",
+                      "downloads": "ADMINISTRATOR",
+                      "engage": null,
+                      "explore": "ADMINISTRATOR",
+                      "explorePlus": "ADMINISTRATOR",
+                      "genAiLens": null,
+                      "manageUsers": null,
+                      "mediaRelations": "ADMINISTRATOR",
+                      "meltwaterApi": "ADMINISTRATOR",
+                      "miraStudio": "ADMINISTRATOR",
+                      "report": "ADMINISTRATOR",
+                      "share": "ADMINISTRATOR",
+                      "__typename": "WorkspaceOverride"
+                    },
+                    "__typename": "WorkspaceOverrides"
+                  },
+                  {
+                    "workspaceId": "69242e296ff8f075096c7cfb",
+                    "roleId": null,
+                    "overrides": {
+                      "account": "ADMINISTRATOR",
+                      "analyze": "ADMINISTRATOR",
+                      "dashboards": "ADMINISTRATOR",
+                      "downloads": "ADMINISTRATOR",
+                      "engage": null,
+                      "explore": "ADMINISTRATOR",
+                      "explorePlus": "ADMINISTRATOR",
+                      "genAiLens": null,
+                      "manageUsers": null,
+                      "mediaRelations": "ADMINISTRATOR",
+                      "meltwaterApi": "ADMINISTRATOR",
+                      "miraStudio": "ADMINISTRATOR",
+                      "report": "ADMINISTRATOR",
+                      "share": "ADMINISTRATOR",
+                      "__typename": "WorkspaceOverride"
+                    },
+                    "__typename": "WorkspaceOverrides"
+                  }
+                ],
+                "__typename": "AppPermissions"
+              },
+              "workspaces": [
+                {
+                  "_id": "68c807a4ba6dd97572a48408",
+                  "name": "F&B",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "68c807feb5208aeedbf8653d",
+                  "name": "Trial (shared)",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "69242e296ff8f075096c7cfb",
+                  "name": "Corporate Communications",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "699d9f8bc8674880969cdae0",
+                  "name": "F&B RP",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "69a83ab1efe21ff1f9900e4d",
+                  "name": "Corporate Art & Culture",
+                  "__typename": "Workspace"
+                }
+              ],
+              "__typename": "User"
+            },
+            "__typename": "CompanyMembership"
+          },
+          "__typename": "CompanyUsersEdge"
+        },
+        {
+          "node": {
+            "activeWorkspaceId": "69a839c8efe21ff1f9900bab",
+            "lastActiveDate": "2026-06-12T11:59:03.005Z",
+            "isOnAdminWorkspace": true,
+            "addedByHaakon": true,
+            "platforms": [
+              "mi"
+            ],
+            "userSeatId": null,
+            "user": {
+              "_id": "6a2ac2c19b8bb4892adc14d4",
+              "firstName": "clara.vaziri",
+              "lastName": "clara.vaziri",
+              "email": "clara.vaziri@meltwater.com",
+              "pending": false,
+              "timezone": "America/New_York",
+              "language": "en",
+              "created": "2026-06-11T14:14:25.665Z",
+              "modified": "2026-06-12T11:59:03.004Z",
+              "isExternalIdpUser": false,
+              "isInternal": true,
+              "userGroups": [],
+              "appPermissions": {
+                "roleId": "ootb-admin-user",
+                "account": "ADMINISTRATOR",
+                "analyze": "ADMINISTRATOR",
+                "dashboards": "ADMINISTRATOR",
+                "downloads": "ADMINISTRATOR",
+                "engage": "RESTRICTED",
+                "explore": "ADMINISTRATOR",
+                "explorePlus": "ADMINISTRATOR",
+                "genAiLens": "RESTRICTED",
+                "manageUsers": "ADMINISTRATOR",
+                "mediaRelations": "ADMINISTRATOR",
+                "meltwaterApi": "ADMINISTRATOR",
+                "miraStudio": "ADMINISTRATOR",
+                "report": "ADMINISTRATOR",
+                "share": "ADMINISTRATOR",
+                "workspaces": null,
+                "__typename": "AppPermissions"
+              },
+              "workspaces": [
+                {
+                  "_id": "68c807a4ba6dd97572a48408",
+                  "name": "F&B",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "696b9bb7734a60c3bbf77ee6",
+                  "name": "FSH",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "699d9f8bc8674880969cdae0",
+                  "name": "F&B RP",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "69a839c8efe21ff1f9900bab",
+                  "name": "UK",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "69a839f007947a8ac943d04c",
+                  "name": "Switzerland",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "69a83a0b55ba6864eb297178",
+                  "name": "Japan",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "69a83a29efe21ff1f9900c6a",
+                  "name": "WFJ",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "69a83a77c867488096a53ea6",
+                  "name": "Grey Markets",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "69a83ad8efe21ff1f9900eb0",
+                  "name": "LATAM",
+                  "__typename": "Workspace"
+                }
+              ],
+              "__typename": "User"
+            },
+            "__typename": "CompanyMembership"
+          },
+          "__typename": "CompanyUsersEdge"
+        },
+        {
+          "node": {
+            "activeWorkspaceId": "68c807a4ba6dd97572a48408",
+            "lastActiveDate": "2026-06-04T13:35:57.995Z",
+            "isOnAdminWorkspace": true,
+            "addedByHaakon": false,
+            "platforms": [
+              "mi"
+            ],
+            "userSeatId": null,
+            "user": {
+              "_id": "65c580456e4a490008022bb7",
+              "firstName": "David",
+              "lastName": "Valles",
+              "email": "david.valles@meltwater.com",
+              "pending": false,
+              "timezone": "Europe/Paris",
+              "language": "en",
+              "created": "2024-02-09T01:30:45.091Z",
+              "modified": "2026-06-12T07:25:08.288Z",
+              "isExternalIdpUser": false,
+              "isInternal": true,
+              "userGroups": [],
+              "appPermissions": {
+                "roleId": null,
+                "account": "ADMINISTRATOR",
+                "analyze": "ADMINISTRATOR",
+                "dashboards": "ADMINISTRATOR",
+                "downloads": "ADMINISTRATOR",
+                "engage": "RESTRICTED",
+                "explore": "ADMINISTRATOR",
+                "explorePlus": "ADMINISTRATOR",
+                "genAiLens": "RESTRICTED",
+                "manageUsers": "ADMINISTRATOR",
+                "mediaRelations": "ADMINISTRATOR",
+                "meltwaterApi": "ADMINISTRATOR",
+                "miraStudio": "ADMINISTRATOR",
+                "report": "ADMINISTRATOR",
+                "share": "ADMINISTRATOR",
+                "workspaces": null,
+                "__typename": "AppPermissions"
+              },
+              "workspaces": [
+                {
+                  "_id": "68c807a4ba6dd97572a48408",
+                  "name": "F&B",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "68c807feb5208aeedbf8653d",
+                  "name": "Trial (shared)",
+                  "__typename": "Workspace"
+                }
+              ],
+              "__typename": "User"
+            },
+            "__typename": "CompanyMembership"
+          },
+          "__typename": "CompanyUsersEdge"
+        },
+        {
+          "node": {
+            "activeWorkspaceId": "68c807a4ba6dd97572a48408",
+            "lastActiveDate": "2026-06-15T16:21:28.962Z",
+            "isOnAdminWorkspace": null,
+            "addedByHaakon": true,
+            "platforms": [
+              "mi"
+            ],
+            "userSeatId": "view-only-users-seat",
+            "user": {
+              "_id": "6a218e444c989fc0348b1cf5",
+              "firstName": "hawa.demmaj@meltwater.com",
+              "lastName": "hawa.demmaj@meltwater.com",
+              "email": "hawa.demmaj@meltwater.com",
+              "pending": false,
+              "timezone": "America/New_York",
+              "language": "en",
+              "created": "2026-06-04T14:40:04.591Z",
+              "modified": "2026-06-15T16:21:28.960Z",
+              "isExternalIdpUser": null,
+              "isInternal": true,
+              "userGroups": [],
+              "appPermissions": {
+                "roleId": null,
+                "account": "RESTRICTED",
+                "analyze": "REGULAR",
+                "dashboards": "REGULAR",
+                "downloads": "RESTRICTED",
+                "engage": "RESTRICTED",
+                "explore": "RESTRICTED",
+                "explorePlus": "REGULAR",
+                "genAiLens": "RESTRICTED",
+                "manageUsers": "RESTRICTED",
+                "mediaRelations": "RESTRICTED",
+                "meltwaterApi": "RESTRICTED",
+                "miraStudio": "RESTRICTED",
+                "report": "REGULAR",
+                "share": "RESTRICTED",
+                "workspaces": null,
+                "__typename": "AppPermissions"
+              },
+              "workspaces": [
+                {
+                  "_id": "68c807a4ba6dd97572a48408",
+                  "name": "F&B",
+                  "__typename": "Workspace"
+                }
+              ],
+              "__typename": "User"
+            },
+            "__typename": "CompanyMembership"
+          },
+          "__typename": "CompanyUsersEdge"
+        },
+        {
+          "node": {
+            "activeWorkspaceId": "695f70e8f8b511b8f4806e6c",
+            "lastActiveDate": "2026-06-10T16:05:42.999Z",
+            "isOnAdminWorkspace": null,
+            "addedByHaakon": false,
+            "platforms": [
+              "mi"
+            ],
+            "userSeatId": null,
+            "user": {
+              "_id": "692438a16d776cf3cf302f18",
+              "firstName": "Hiba",
+              "lastName": "Benhrima",
+              "email": "hiba.benhrima@meltwater.com",
+              "pending": false,
+              "timezone": "Europe/Paris",
+              "language": "en",
+              "created": "2025-11-24T10:51:13.632Z",
+              "modified": "2026-06-11T10:00:40.603Z",
+              "isExternalIdpUser": true,
+              "isInternal": true,
+              "userGroups": [],
+              "appPermissions": {
+                "roleId": null,
+                "account": "ADMINISTRATOR",
+                "analyze": "ADMINISTRATOR",
+                "dashboards": "ADMINISTRATOR",
+                "downloads": "ADMINISTRATOR",
+                "engage": "RESTRICTED",
+                "explore": "ADMINISTRATOR",
+                "explorePlus": "ADMINISTRATOR",
+                "genAiLens": "RESTRICTED",
+                "manageUsers": "ADMINISTRATOR",
+                "mediaRelations": "ADMINISTRATOR",
+                "meltwaterApi": "ADMINISTRATOR",
+                "miraStudio": "ADMINISTRATOR",
+                "report": "ADMINISTRATOR",
+                "share": "ADMINISTRATOR",
+                "workspaces": null,
+                "__typename": "AppPermissions"
+              },
+              "workspaces": [
+                {
+                  "_id": "68c807a4ba6dd97572a48408",
+                  "name": "F&B",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "695f70e8f8b511b8f4806e6c",
+                  "name": "Europe",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "6968d0dfd095e3fa9c9311b7",
+                  "name": " Presse Export Europe ",
+                  "__typename": "Workspace"
+                }
+              ],
+              "__typename": "User"
+            },
+            "__typename": "CompanyMembership"
+          },
+          "__typename": "CompanyUsersEdge"
+        },
+        {
+          "node": {
+            "activeWorkspaceId": "69a839f007947a8ac943d04c",
+            "lastActiveDate": "2026-06-10T06:50:16.260Z",
+            "isOnAdminWorkspace": null,
+            "addedByHaakon": false,
+            "platforms": [
+              "mi"
+            ],
+            "userSeatId": null,
+            "user": {
+              "_id": "638f67506cc1e10008e5a0c1",
+              "firstName": "Jeslynn",
+              "lastName": "Soh",
+              "email": "jeslynn.soh@meltwater.com",
+              "pending": false,
+              "timezone": "Asia/Singapore",
+              "language": "en",
+              "created": "2022-12-06T16:01:20.541Z",
+              "modified": "2026-06-16T05:24:11.426Z",
+              "isExternalIdpUser": false,
+              "isInternal": true,
+              "userGroups": [],
+              "appPermissions": {
+                "roleId": null,
+                "account": "ADMINISTRATOR",
+                "analyze": "ADMINISTRATOR",
+                "dashboards": "ADMINISTRATOR",
+                "downloads": "ADMINISTRATOR",
+                "engage": "RESTRICTED",
+                "explore": "ADMINISTRATOR",
+                "explorePlus": "ADMINISTRATOR",
+                "genAiLens": "RESTRICTED",
+                "manageUsers": "ADMINISTRATOR",
+                "mediaRelations": "ADMINISTRATOR",
+                "meltwaterApi": "ADMINISTRATOR",
+                "miraStudio": "ADMINISTRATOR",
+                "report": "ADMINISTRATOR",
+                "share": "ADMINISTRATOR",
+                "workspaces": null,
+                "__typename": "AppPermissions"
+              },
+              "workspaces": [
+                {
+                  "_id": "68c807a4ba6dd97572a48408",
+                  "name": "F&B",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "68c807feb5208aeedbf8653d",
+                  "name": "Trial (shared)",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "68dc05ab918bc1936fdf4ae5",
+                  "name": "Sensitive Communication",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "69242e296ff8f075096c7cfb",
+                  "name": "Corporate Communications",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "695f70e8f8b511b8f4806e6c",
+                  "name": "Europe",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "6968d0dfd095e3fa9c9311b7",
+                  "name": " Presse Export Europe ",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "696b9bb7734a60c3bbf77ee6",
+                  "name": "FSH",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "696c8bcb734a60c3bbf79564",
+                  "name": "F&B leaks",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "699d9f8bc8674880969cdae0",
+                  "name": "F&B RP",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "69a839c8efe21ff1f9900bab",
+                  "name": "UK",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "69a839f007947a8ac943d04c",
+                  "name": "Switzerland",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "69a83a0b55ba6864eb297178",
+                  "name": "Japan",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "69a83a29efe21ff1f9900c6a",
+                  "name": "WFJ",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "69a83a77c867488096a53ea6",
+                  "name": "Grey Markets",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "69a83ab1efe21ff1f9900e4d",
+                  "name": "Corporate Art & Culture",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "69a83ad8efe21ff1f9900eb0",
+                  "name": "LATAM",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "69a83ae7cf3991d34e7b1129",
+                  "name": "Insight & Foresights",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "69a83af9cf3991d34e7b1145",
+                  "name": "Patrimoine",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "69a84c7907947a8ac943eea4",
+                  "name": "SEAA",
+                  "__typename": "Workspace"
+                },
+                {
+                  "_id": "69a84c92c867488096a55b92",
+                  "name": "Japan Digital",
+                  "__typename": "Workspace"
+                }
+              ],
+              "__typename": "User"
+            },
+            "__typename": "CompanyMembership"
+          },
+          "__typename": "CompanyUsersEdge"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": true,
+        "hasPreviousPage": false,
+        "page": 1,
+        "pageSize": 10,
+        "__typename": "IdentityPageInfo"
+      },
+      "__typename": "CompanyUsersConnection"
+    }
+  }
+}

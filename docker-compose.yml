@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: support-toolkit-backend
+    container_name: support-toolkit-backend
+    ports:
+      - "8001:8000"
+    environment:
+      - PORT=8000
+    volumes:
+      - ./data:/app/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 30s
+      start_period: 5s
+      retries: 3
+    restart: unless-stopped

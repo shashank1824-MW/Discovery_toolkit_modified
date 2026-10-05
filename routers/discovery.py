@@ -2385,6 +2385,7 @@ async def search_usage_handler(
         }
 
 
+
 async def list_searches_handler(
     token: str, placeholders: Dict[str, str]
 ) -> Dict[str, Any]:
@@ -3367,18 +3368,28 @@ async def monitored_pages_handler(
                             results = []
                             for item in data:
                                 cur_acc_id = str(item.get("accountId"))
+                                
+                                logger.info(
+    f"accountId={cur_acc_id}, map={account_name_map.get(cur_acc_id)}, apiAccountName={item.get('accountName')}"
+)
                                 results.append(
-                                    {
-                                        "platform": "facebook"
-                                        if provider_filter == 5
-                                        else "instagram",
-                                        "accountId": cur_acc_id or "Unknown",
-                                        "accountName": account_name_map.get(cur_acc_id)
-                                        or item.get("accountName")
-                                        or "Unknown",
-                                        **item,
-                                    }
-                                )
+                                       {
+        "platform": "facebook"
+        if provider_filter == 5
+        else "instagram",
+        "accountId": cur_acc_id or "Unknown",
+        "accountName": account_name_map.get(cur_acc_id)
+        or item.get("accountName")
+        or "Unknown",
+
+        **{
+            k: v
+            for k, v in item.items()
+            if k not in ("platform", "accountId", "accountName")
+        },
+    }
+)
+                                logger.info(f"Final accountName: {results[-1].get('accountName')}")
 
                             # Sort by accountId to group pages together
                             results.sort(key=lambda x: str(x.get("accountId", "")))

@@ -1,3 +1,13 @@
 .aws.env
 .env
 
+
+.DS_Store
+__pycache__/
+*.pyc
+package-lock.json
+
+.DS_Store
+__pycache__/
+*.pyc
+package-lock.json
